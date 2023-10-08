@@ -1,0 +1,12 @@
+package oops;
+
+public class BankExample {
+		
+	public int AccountNo;
+	
+	public void getBalance() {
+		
+		
+		
+	}
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;test.LoopingExample&apos; to &apos;WhileLoopExample&apos;&#x0D;&#x0A;- Original project: &apos;CoreJavaProject&apos;&#x0D;&#x0A;- Original element: &apos;test.LoopingExample&apos;&#x0D;&#x0A;- Renamed element: &apos;test.WhileLoopExample&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Rename similarly named elements&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;LoopingExample&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;test{LoopingExample.java[LoopingExample" matchStrategy="1" name="WhileLoopExample" qualified="false" references="true" similarDeclarations="true" stamp="1695900061872" textual="true" version="1.0"/>
+</session>

@@ -1,0 +1,19 @@
+package collections;
+
+import java.util.ArrayList;
+
+public class ArrayListExample {
+
+	public static void main(String[] args) {
+
+		ArrayList<String> list1 = new ArrayList<String>();
+		
+		list1.add("Nik");
+		list1.add("Neha");
+		list1.add("Jamdade");
+		
+		System.out.println("The list:" + list1);
+		
+		
+	}
+}

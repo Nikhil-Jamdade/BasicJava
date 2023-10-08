@@ -1,0 +1,47 @@
+package collections;
+
+import java.util.HashMap;
+
+public class MapExample {
+
+	public static void main(String[] args) {
+
+		HashMap<String, Integer> basket = new HashMap<String, Integer>();
+		// Here Items(keys) will act as 'set' and 1(value) will act as 'list'
+		basket.put("Item1", 1);
+		basket.put("Item2", 3);
+		basket.put("Item3", 4);
+		basket.put("Item5", 4);
+		basket.put("Item4", null);
+		System.out.println("Map: " + basket);
+
+		basket.put("Item3", 6);
+		System.out.println("After replace: " + basket);
+
+		basket.remove("Item2");
+		System.out.println("Remove: " + basket);
+
+		System.out.println();
+		for (String item : basket.keySet()) {
+			System.out.println("Item name: " + item);
+			System.out.println("Quantity: " + basket.get(item));
+		}
+
+		System.out.println();
+		for (Integer num : basket.values()) {
+			System.out.println("Values: " + num);
+			System.out.println("Values:" + num);
+		}
+
+		System.out.println();
+		String str = "Clean world green world happy world";
+		String[] arr1 = str.split(" ");
+		String reverse = "";
+		for (String i = 0; i < str.length(); i++) {
+			System.out.println("");
+		}
+
+		System.out.println(arr1);
+
+	}
+}

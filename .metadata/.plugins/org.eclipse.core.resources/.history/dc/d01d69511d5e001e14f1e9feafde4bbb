@@ -1,0 +1,36 @@
+package oops;
+
+public class RunnerClass {
+
+	public static void main(String[] args) {
+
+		Employee emp1 = new Employee();
+		emp1.Name = "Nikhil";
+		emp1.EmpId = 12;
+		emp1.DisplayName();
+
+		Employee emp2 = new Employee();
+		emp2.Name = "Neha";
+		emp2.EmpId = 5;
+		emp2.DisplayName();
+
+		Employee emp3 = new Employee("Nik", 5005);
+		emp3.DisplayName();
+
+//		Employee.DisplaySalary();
+
+		Citizen ct1 = new Citizen();
+
+		ct1.age = 50;
+		ct1.Name = "Nikhil";
+		ct1.CountryName = "India";
+		ct1.SSN = 5005;
+
+		Citizen ct2 = new Citizen("Neha", "Bharat", 20, 12345);
+		
+		Insurance obj1 = new Insurance();
+		obj1.InsuranceId = 3000;
+		
+	}
+
+}

@@ -1,0 +1,11 @@
+package oops;
+
+public class EncapsulationExample {
+	
+	private int Salary;
+	private String Company;
+	private int EmpId;
+	
+	
+	
+}

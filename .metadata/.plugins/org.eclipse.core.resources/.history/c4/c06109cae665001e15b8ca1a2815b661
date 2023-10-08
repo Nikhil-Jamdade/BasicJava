@@ -1,0 +1,16 @@
+package collections;
+
+import java.util.HashMap;
+
+public class MapExample {
+
+	public static void main(String[] args) {
+		
+		HashMap<String, Integer> basket = new HashMap<String, Integer>();
+		basket.put("Item1", 1);
+		basket.put("Item", 3);
+		basket.put("Item3", 4);
+		System.out.println("Map: " + basket);
+		
+	}
+}

@@ -1,0 +1,21 @@
+package oops;
+
+public class RunnerClass {
+
+	public static void main(String[] args) {
+		
+		Employee emp1 = new Employee();
+		emp1.Name = "Nikhil";
+		emp1.EmpId = 12;
+		emp1.DisplayName();
+		
+		Employee emp2 = new Employee();
+		emp2.Name = "Neha";
+		emp2.EmpId = 5;
+		emp2.DisplayName();
+		
+		Employee emp3 = new Employee("Nik",5005);
+		
+	}
+ 
+}

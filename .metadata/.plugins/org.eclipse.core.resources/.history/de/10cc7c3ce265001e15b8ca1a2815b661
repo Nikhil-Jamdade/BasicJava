@@ -1,0 +1,16 @@
+package collections;
+
+import java.util.HashSet;
+
+public class SetExample {
+
+	public static void main(String[] args) {
+		
+		HashSet<String> set1 = new HashSet<String>();
+		set1.add("Jake");	
+		set1.add("Zone");
+		set1.add("Lily");
+		
+		System.out.println(set1);
+	}
+}
